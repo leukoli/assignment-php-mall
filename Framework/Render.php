@@ -31,6 +31,7 @@ class Render{
 
 	public function rendering(){
 		extract($this->data);
+		$app = $this->app;
 		include DOC_ROOT . 'Views' . DIRECTORY_SEPARATOR . $this->view . ".view.php";
 	}
 }

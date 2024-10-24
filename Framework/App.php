@@ -15,7 +15,7 @@ class App {
 
 	private $module = [];
 
-	private $config = [];
+	public $config = [];
 
 	public $render;
 
